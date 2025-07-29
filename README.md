@@ -7,7 +7,7 @@
 
 ## 📂 Repository Contents
 
-- [`over leaf resume template code.txt`](over%20leaf%20resume%20template%20code.txt) – LaTeX source code for a polished resume  
+- [`over leaf resume template code.txt`](OverLeaf_Resume_Template_Code.txt) – LaTeX source code for a polished resume  
 - [`rakesh_resume.pdf`](rakesh_resume.pdf) – Example PDF output  
 - `images/` – Screenshots for visual guidance  
 
@@ -45,7 +45,7 @@
 ---
 
 ## 3️⃣ Paste the Template Code
-1. Open [`over leaf resume template code.txt`](over%20leaf%20resume%20template%20code.txt)  
+1. Open [`over leaf resume template code.txt`](OverLeaf_Resume_Template_Code.txt)  
 2. Copy **all LaTeX code**  
 3. Paste into the **left panel** of the Overleaf editor  
 4. Press **Ctrl + S** or click **Recompile**  
