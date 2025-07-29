@@ -1,0 +1,117 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{4pt}\scshape\large\raggedright
+}{}{0em}{}[\titlerule \vspace{-4pt}]
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    {\Huge \scshape Rakesh Kumar} \\ \vspace{2pt}
+    \href{mailto:rakesh.kumar@gmail.com}{rakesh.kumar@gmail.com} $|$ Phone: 9035888620 $|$ 
+    \href{https://linkedin.com/in/rakesh9397}{LinkedIn: rakesh9397} $|$ 
+    \href{https://github.com/rakeshofficial}{GitHub: rakeshofficial}
+\end{center}
+
+%-----------PROFILE SUMMARY-----------
+\section*{Profile Summary}
+Motivated and detail-oriented Computer Science graduate with strong foundational knowledge in Java Full Stack Development. Proficient in Java, Spring Boot, MySQL, and front-end technologies. Experienced in building real-time academic projects and collaborating on backend services. Passionate about learning and contributing to team success in agile environments.
+
+%-----------EDUCATION-----------
+\section{Education}
+\textbf{Bachelor of Engineering in Computer Science} \hfill June 2021 -- Present \\
+R.V. College of Engineering, Bangalore \\
+Current CGPA: 8.80
+
+\vspace{4pt}
+\textbf{PU (Pre-University)}, St. Joseph’s PU College, Bangalore \hfill 2019 -- 2021 \\
+Percentage: 92\%
+
+\vspace{4pt}
+\textbf{SSLC}, National Public School, Bangalore \hfill 2018 -- 2019 \\
+Percentage: 92\%
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
+    \item \textbf{Languages:} Java, JavaScript, SQL, HTML5, CSS3
+    \item \textbf{Frameworks/Libraries:} Spring Boot, Spring MVC, Hibernate, JSP, Servlets
+    \item \textbf{Tools \& Platforms:} Git, Maven, IntelliJ IDEA, Eclipse, Postman, Apache Tomcat
+    \item \textbf{Databases:} MySQL, Oracle
+    \item \textbf{Concepts:} OOP, Data Structures \& Algorithms, REST APIs, MVC, DBMS
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\textbf{Employee Management System (Java, JDBC, MySQL)} \hfill Oct 2024 -- Present \\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Built a CRUD-based system with login, registration, and admin features using JDBC and MySQL.
+    \item Designed role-based dashboards to manage employee data securely and efficiently.
+\end{itemize}
+
+\textbf{Amazon Invoice Generator (Java, JSP, MySQL)} \hfill June 2024 -- Dec 2024 \\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Developed a dynamic invoice billing app with JSP and Apache Tomcat; exported bills as PDFs.
+    \item Integrated HTML forms and JDBC to fetch item, price, and discount data dynamically.
+\end{itemize}
+
+%-----------INTERNSHIP-----------
+\section{Internship}
+
+\textbf{Java Intern, ABC Solutions, Bangalore} \hfill April 2024 \\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Contributed to backend logic of enterprise applications using Spring Boot and MySQL.
+    \item Optimized REST APIs and implemented CRUD operations for scalable service modules.
+    \item Worked in Agile teams and participated in daily scrums to enhance deliverable timelines.
+\end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Winner of CodeFest Hackathon 2023 – secured 1\textsuperscript{st} place among 50 teams at ABC University.
+    \item Awarded “Star Performer” at college for leading a team that improved project efficiency by 20\%.
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Courses \& Certifications}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Full Stack Web Development Training – Hands-on with Java, Spring Boot, MySQL, JSP.
+    \item NPTEL Certification: ‘Foundations of Programming in C’ by IISc Bangalore (6-week course).
+\end{itemize}
+
+%-----------HOBBIES-----------
+\section{Hobbies}
+\begin{itemize}[leftmargin=0.5cm]
+    \item Participating in Java community events and coding challenges.
+    \item Exploring backend technologies through personal mini-projects.
+    \item Collaborating with peers on GitHub for open-source projects.
+\end{itemize}
+
+\end{document}
